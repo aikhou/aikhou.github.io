@@ -19,25 +19,27 @@ nav {
 nav h1 {
     width: 40%;
     justify-self: center;
-    border: 1px red solid;
     align-items: center;
     text-align: center;
     margin: auto;
+
+    font-size: 1.5rem;
 }
 
 nav ul {
     width: 40%;
-    height: 100%;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px red solid;
     align-items: center;
     list-style-type: none;
+    margin-right: 3rem;
 }
 
 nav li {
     padding-left: 2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 /* Universal Styles */
