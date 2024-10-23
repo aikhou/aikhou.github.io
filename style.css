@@ -1,0 +1,10 @@
+nav {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+body {
+    background-color: darkgrey;
+    color: white;
+}
