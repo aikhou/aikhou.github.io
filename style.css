@@ -6,7 +6,7 @@
     font-style: normal;
   }
 
-
+/* Nav Styles */
 
 nav {
     display: inline-flex;
@@ -43,6 +43,22 @@ nav li {
     font-weight: 700;
     text-decoration: none;
     color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* About Me Page Styles */
+
+div.about-me {
+    display: inline-flex;
+    width: 100%;
+    min-height: 12rem;
+    flex-direction: row;
+
+    border: 1px green solid;
 }
 
 /* Universal Styles */
