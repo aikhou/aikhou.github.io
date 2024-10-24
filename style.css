@@ -78,8 +78,50 @@ div.portrait {
     height: auto;
 }
 
-img {
-    border-radius: 50%;
+/* Project-Skill Page */
+
+div.project-skills {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 25rem;
+    justify-content: space-around;
+    padding: 2rem 0;
+
+
+    border-bottom: 1px #f0f6fc solid;
+}
+
+section.projects  {
+    width: 35%;
+    padding: 2rem;
+
+    border: 1px red solid;
+}
+
+.projects ul {
+    padding: 1rem;
+}
+
+.projects li {
+    padding: 0.5rem;
+}
+
+section.skills {
+    width: 35%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px red solid;
+}
+
+.skills-img-container {
+    height: 75%;
+    width: 90%;
+
+    border: 1px red solid;
 }
 
 /* Universal Styles */
@@ -90,7 +132,15 @@ body {
 }
 
 h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.15rem;
+}
+
+img {
+    border-radius: 50%;
 }
 
 html {
