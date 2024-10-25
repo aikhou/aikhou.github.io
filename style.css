@@ -93,18 +93,25 @@ div.project-skills {
 }
 
 section.projects  {
-    width: 35%;
-    padding: 2rem;
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
-    border: 1px red solid;
 }
 
 .projects ul {
     padding: 1rem;
+    height: 80%;
+    width: 78%;
+
 }
 
 .projects li {
     padding: 0.5rem;
+    font-size: 1.2rem;
+
 }
 
 section.skills {
@@ -114,14 +121,21 @@ section.skills {
     justify-content: space-around;
     align-items: center;
 
-    border: 1px red solid;
 }
 
 .skills-img-container {
-    height: 75%;
-    width: 90%;
+    height: 95%;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
 
-    border: 1px red solid;
+}
+
+.skill {
+    height:  5rem;
+    width: 5rem;
+    border-radius: 0%;
+    padding: 1rem 1rem;
 }
 
 /* Universal Styles */
