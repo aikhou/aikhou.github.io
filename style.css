@@ -177,6 +177,7 @@ div.visual-mode-switch {
 body {
     background-color: #0d1117;
     color: #f0f6fc;
+    overflow-x: hidden;
 }
 
 body *:focus {
