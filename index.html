@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
-        <title>aikhou.github.io</title>
-        <link src="style.css" type="style" rel="style">
+        <title>Aikhou</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Importing Roborto Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
-            <h1>Aikhou</h1>
+            <h1>Aikhou Github</h1>
             <ul>
-                <li>About Me</li>
-                <li>Contact Me</li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact Me</a></li>
             </ul>
         </nav>
         <main>
             <div class="about-me">
                 <section>
                     <h2>About Me</h2>
-                    <p>[Fill text here with description]</p>
+                    <p>Hello there. I'm Aikhou and am an aspiring full-stack web developer, studying the career course on the online website CodeAcademy.</p>
+                    <p>I have finished the basics of web development and am moving onto front-end development after my exams on HTML, CSS, Javascript and their relations.</p>
+                    <p>I study part-time after I work at my parents farmland, 4-5 days a week. Yes, I have seen the sun.</p>
+                    <p class="page-view">
+                        You've been viewing this page for 
+                        <span id="time-container">0</span>
+                         seconds...
+                    </p>
                 </section>
 
                 <div class="image-container portrait">
-                    <image src=""></image>
+                    <img src="resources/github-portrait.png" alt="Aikhou's Github Portrait">
                 </div>
             </div>
 
-            <div class="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li>This Website</li>
-                    <li>Secret Explosives Minecraft Mod</li>
-                </ul>
-            </div>
+            <div class="project-skills">
+                <section class="skills">
+                    <h2>Experienced at</h2>
+                    <div class="skills-img-container">                        
+                        <img src="resources/skills-icons/html.png" class="skill" alt="HTML Icon">
+                        <img src="resources/skills-icons/css.png" class="skill" alt="CSS Icon">
+                        <img src="resources/skills-icons/java-script.png" class="skill" alt="JavaScript Icon">
+                        <img src="resources/skills-icons/chrome.png" class="skill" alt="Chrome Icon">
+                        <img src="resources/skills-icons/git.png" class="skill" alt="Git Icon">
+                        <img src="resources/skills-icons/github.png" class="skill" alt="Github Icon">
+                        <img src="resources/skills-icons/cmd.png" class="skill" alt="Command Line Icon">
+                        <img src="resources/skills-icons/accesibility.png" class="skill" alt="A11Y Icon">
+                        <img src="resources/skills-icons/c++.png" class="skill" alt="C++ Icon">
+                    </div>
+                </section>
+                
+                <section class="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>This Website</li>
+                        <li>Secret Explosives Minecraft Mod</li>
+                        <li>Random Egg Corruption Minecraft Mod</li>
+                        <li>RNG Expansion Minecraft Mod</li>
+                        <li>Piano Keys Website</li>
+                        <li>Reaction Image Photoboard</li>
 
-            <div class="skills">
-                <h2>Skills and Experience</h2>
-                <div class="skills-img-container">
-                    <p>[Fill area here with icons of skills acquired]</p>
-                </div>
+                    </ul>
+                </section>
+
+                
             </div>
         </main>
+
+        <script src="script.js"></script>
     </body>
 
 </html>

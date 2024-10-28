@@ -1,29 +1,177 @@
+/* Font Injections */
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Nav Styles */
+
 nav {
-    display: inline-block;
+    display: inline-flex;
     width: 100%;
-    height: 5rem;
+    height: 4.25rem;
     justify-content: space-around;
+    border-bottom: 1px #f0f6fc solid;
 }
 
 nav h1 {
-    width: 45%;
-    height: 100%;
+    width: 25%;
     justify-self: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 nav ul {
-    width: 45%;
-    height: 100%;
+    min-width: 55%;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
 }
 
 nav li {
     padding-left: 2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f0f6fc;
 }
 
-body * {
+li a {
+    text-decoration: none;
+    color: #f0f6fc;
+}
+
+/* About Me Page Styles */
+
+div.about-me {
+    display: inline-flex;
+    width: 100%;
+    min-height: 25rem;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 2rem 0;
+    border-bottom: 1px #f0f6fc solid;
+}
+
+.about-me section {
+    width: 35%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.about-me p {
+    padding-top: 2.5rem;
+    text-align: left;
+}
+
+div.portrait {
+    width: auto;
+    height: auto;
+}
+
+/* Project-Skill Page */
+
+div.project-skills {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 25rem;
+    justify-content: space-around;
+    padding: 2rem 0;
+
+
+    border-bottom: 1px #f0f6fc solid;
+}
+
+section.projects  {
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.projects ul {
+    padding: 1rem;
+    height: 80%;
+    width: 78%;
+
+}
+
+.projects li {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+
+}
+
+section.skills {
+    width: 35%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skills-img-container {
+    height: 95%;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skill {
+    height:  5rem;
+    width: 5rem;
+    border-radius: 0%;
+    padding: 1rem 1rem;
+}
+
+/* Universal Styles */
+
+body {
+    background-color: #0d1117;
+    color: #f0f6fc;
+}
+
+body *:focus {
+    border: 1px solid #f0f6fc;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.15rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+* {
     margin: 0;
     padding: 0;
+    font-family: roborto-regular, "Roborto", sans-serif;
 }
