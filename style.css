@@ -70,7 +70,7 @@ div.about-me {
 
 .about-me p {
     padding-top: 2.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 div.portrait {
@@ -145,6 +145,10 @@ body {
     color: #f0f6fc;
 }
 
+body *:focus {
+    border: 1px solid #f0f6fc;
+}
+
 h2 {
     font-size: 1.5rem;
 }
@@ -153,9 +157,14 @@ p {
     font-size: 1.15rem;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 img {
     border-radius: 50%;
 }
+
 
 html {
     font-size: 16px;
