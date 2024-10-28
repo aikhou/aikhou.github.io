@@ -137,8 +137,42 @@ section.skills {
     border-radius: 0%;
     padding: 1rem 1rem;
 }
+/* Mode switch area */
+
+div.visual-mode-switch {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 3rem;
+}
+
+.visual-mode-switch button {
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}
+
+#dark-mode-button {
+    display: none;
+    
+    background-color: #f0f6fc;
+    color: #0d1117;
+}
+
+#light-mode-button {
+    display: initial;
+
+    background-color: #0d1117;
+    color: #f0f6fc;
+}
 
 /* Universal Styles */
+
+#time-container {
+    text-decoration: underline;
+}
 
 body {
     background-color: #0d1117;
@@ -147,6 +181,11 @@ body {
 
 body *:focus {
     border: 1px solid #f0f6fc;
+}
+
+button {
+    width: 10rem;
+    height: 4rem;
 }
 
 h2 {
@@ -164,7 +203,6 @@ a:hover {
 img {
     border-radius: 50%;
 }
-
 
 html {
     font-size: 16px;
