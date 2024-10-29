@@ -10,31 +10,33 @@ setInterval(function() {
 const light_mode_but = document.getElementById("light-mode-button");
 const dark_mode_but = document.getElementById("dark-mode-button");
 
-// Light mode button (default)
-light_mode_but.addEventListener("click", event => {
-    dark_mode_but.style.display = "initial";
-    light_mode_but.style.display = "none";
+// Dark mode but
+dark_mode_but.addEventListener("click", event => {
+    dark_mode_but.style.display = "none";
+    light_mode_but.style.display = "initial";
 
     document.body.style.backgroundColor = "#0d1117";
     document.body.style.color = "#f0f6fc";
     document.getElementById("nav").style.borderBottom = "1px solid #f0f6fc";
     document.getElementById("nav").h1.style.color = "#f0f6fc";
-    document.getElementById("nav").li.style.color = "#f0f6fc";
     document.getElementById("about-me").style.borderBottom = "1px solid #f0f6fc";
     document.getElementById("project-skills").style.borderBottom = "1px solid #f0f6fc";
 })
 
-// Dark mode button 
-dark_mode_but.addEventListener("click", event => {
-    dark_mode_but.style.display = "none";
-    light_mode_but.style.display = "initial";
+// Light mode but
+light_mode_but.addEventListener("click", event => {
+    dark_mode_but.style.display = "initial";
+    light_mode_but.style.display = "none";
 
     document.body.style.backgroundColor = "#f0f6fc";
     document.body.style.color = "#0d1117";
     document.getElementById("nav").style.borderBottom = "1px solid #0d1117";
     document.getElementById("nav").h1.style.color = "#0d1117";
-    document.getElementById("nav").li.style.color = "#0d1117";
-    document.getElementById("about-me").style.borderBottom = "1px solid #0d1117";
+
+    document.getElementById("contact-me-li").style.color = "#0d1117";
+    document.getElementById("about-me-li").style.color = "#0d1117";
+
+    document.getElementById("about-me").style.borderBottom = "1px solid black";
     document.getElementById("project-skills").style.borderBottom = "1px solid #0d1117";
 });
 

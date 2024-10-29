@@ -168,6 +168,33 @@ div.visual-mode-switch {
     color: #f0f6fc;
 }
 
+/* Contact Me Page */
+
+.contact-list li {
+    list-style-type: none;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.contact-div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-div p {
+    text-align: center;
+    padding: 0;
+
+}
+
+.contact-div img {
+    width: 3rem;
+    height: 3rem;
+    padding-right: 1rem;
+}
+
 /* Universal Styles */
 
 #time-container {
