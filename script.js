@@ -18,7 +18,7 @@ dark_mode_but.addEventListener("click", event => {
     document.body.style.backgroundColor = "#0d1117";
     document.body.style.color = "#f0f6fc";
     document.getElementById("nav").style.borderBottom = "1px solid #f0f6fc";
-    document.getElementById("nav").h1.style.color = "#f0f6fc";
+    //document.getElementById("nav").h1.style.color = "#f0f6fc";
     document.getElementById("about-me").style.borderBottom = "1px solid #f0f6fc";
     document.getElementById("project-skills").style.borderBottom = "1px solid #f0f6fc";
 })
@@ -31,10 +31,10 @@ light_mode_but.addEventListener("click", event => {
     document.body.style.backgroundColor = "#f0f6fc";
     document.body.style.color = "#0d1117";
     document.getElementById("nav").style.borderBottom = "1px solid #0d1117";
-    document.getElementById("nav").h1.style.color = "#0d1117";
+    //document.getElementById("nav").h1.style.color = "#0d1117";
 
-    document.getElementById("contact-me-li").style.color = "#0d1117";
-    document.getElementById("about-me-li").style.color = "#0d1117";
+    //document.getElementById("contact-me-li").style.color = "#0d1117";
+    //document.getElementById("about-me-li").style.color = "#0d1117";
 
     document.getElementById("about-me").style.borderBottom = "1px solid black";
     document.getElementById("project-skills").style.borderBottom = "1px solid #0d1117";
