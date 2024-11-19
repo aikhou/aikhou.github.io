@@ -1,7 +1,80 @@
 /* Responsive changes */
+@media screen and (max-width: 600px) {
+    #nav * {
+        font-size: 1.25rem;
+    }
 
-@media screen and (max-width: 800px) {
-    
+    #nav h1 {
+        width: 30%;
+    }
+
+    #page-view {
+        height: 5rem;
+    }
+
+    .portrait {
+        display: none;
+    }
+
+    .about-me {
+        width: auto;
+        max-height: 50rem; 
+    }
+
+    .about-me h1, .about-me p {
+         max-height: 8rem;
+         width: 20rem;
+    }
+
+    section h2 {
+        font-size: 1.25rem;
+    }
+
+    #project-skills {
+        align-items: start;
+    }
+
+    #project-skills .projects li {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+    #nav * {
+        font-size: 1.4rem;
+    }
+
+    .about-me {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-me {
+        justify-content: center;
+    }
+
+    #about-me section {
+        padding: 1rem 3rem;
+    }
+
+    #portrait-cont {
+        width: 40%;
+        height: 40%;
+        justify-content: center;
+    }
+
+    .portrait img {
+        width: 100%;
+        height: auto;
+    }
+
+    #project-skills {
+        align-items: start;
+    }
+
+    #project-skills .projects li {
+        padding: 1.5rem;
+    }
 }
 
 /* Font Injections */
@@ -42,7 +115,7 @@ nav ul {
 
 nav li {
     padding-left: 2rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
     color: #f0f6fc;
@@ -81,6 +154,17 @@ div.about-me {
 
 div.portrait {
     width: auto;
+    height: auto;
+}
+
+#portrait-cont {
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.portrait img {
+    width: 100%;
     height: auto;
 }
 
